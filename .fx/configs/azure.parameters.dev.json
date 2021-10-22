@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "resourceBaseName": {
+      "value": "rentugraphdev494809"
+    },
+    "m365ClientId": {
+      "value": "{{profile.fx-resource-aad-app-for-teams.clientId}}"
+    },
+    "m365ClientSecret": {
+      "value": "{{profile.fx-resource-aad-app-for-teams.clientSecret}}"
+    },
+    "m365TenantId": {
+      "value": "{{profile.fx-resource-aad-app-for-teams.tenantId}}"
+    },
+    "m365OauthAuthorityHost": {
+      "value": "{{profile.fx-resource-aad-app-for-teams.oauthHost}}"
+    }
+  }
+}

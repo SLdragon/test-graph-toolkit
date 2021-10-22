@@ -1,0 +1,24 @@
+{
+    "appName": "rentugraphtoolkittest",
+    "projectId": "4654635c-b12e-4ec3-a358-bfac750ade93",
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [],
+        "capabilities": [
+            "Tab"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio",
+            "fx-resource-simple-auth"
+        ]
+    },
+    "version": "1.0.0",
+    "activeEnvironment": "dev",
+    "isFromSample": false,
+    "programmingLanguage": "javascript"
+}
